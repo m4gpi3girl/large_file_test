@@ -5,6 +5,8 @@ def main():
 
     st.title("Test for GIT LFS")
 
+    st.write("hello!")
+
     df = pd.read_csv(r"C:\Users\Elisha.Zissman\OneDrive - Social Investment Business\Desktop\GIT_LFS_TEST\LARGEDATA\pc_data.csv")
     st.write(df.head())
 
